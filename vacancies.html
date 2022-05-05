@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Silver Cars | Вакансии</title>
+  <link rel="icon" href="images/icons/favicon.svg" type="images/x-icon">
+  <link rel="shortcut icon" href="images/icons/favicon.svg" type="images/x-icon">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body class="body">
+
+<header class="header">
+    <div class="container">
+        <div class="header__inner">
+            <button class="menu-btn">
+                <span class="sr-only">Открыть меню</span>
+                <span class="menu-btn__line"></span>
+                <span class="menu-btn__line"></span>
+                <span class="menu-btn__line"></span>
+            </button>
+            <a class="logo" href="index.html">
+                <img class="logo__img" src="images/logo.svg" alt="логотип" width="212" height="62">
+            </a>
+        </div>
+    </div>
+    <nav class="header__nav">
+        <button class="menu-close">
+            <span class="sr-only">закрыть меню</span>
+            <span class="menu-close__line"></span>
+            <span class="menu-close__line"></span>
+        </button>
+        <ul class="header__menu">
+            <li class="header__item">
+                <a class="header__link header__link--active" href="#">Главная</a>
+            </li>
+            <li class="header__item header__item--submenu">
+                <a class="header__link header__link--submenu" href="about.html">О нас</a>
+                <ul class="header__submenu">
+                    <li class="header__submenu-item">
+                        <a class="header__submenu-link" href="awards.html">Награды</a>
+                    </li>
+                    <li class="header__submenu-item">
+                        <a class="header__submenu-link" href="vacancies.html">Вакансии</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="header__item header__item--submenu">
+                <a class="header__link header__link--submenu" href="cars.html">Наши автомобили</a>
+                <ul class="header__submenu">
+                    <li class="header__submenu-item">
+                        <a class="header__submenu-link" href="carsBmw.html">BMW</a>
+                    </li>
+                    <li class="header__submenu-item">
+                        <a class="header__submenu-link" href="carsMercedes.html">Mercedes</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="header__item">
+                <a class="header__link" href="blog.html">Блог</a>
+            </li>
+            <li class="header__item">
+                <a class="header__link" href="contacts.html">Контакты</a>
+            </li>
+            <li class="header__item">
+                <a class="header__link" href="reviews.html">Отзывы</a>
+            </li>
+            <li class="header__item">
+                <a class="header__link" href="conditions.html">Условия и правила</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main>
+  <section class="vacancies bgBlack indent" style="background-image: url(images/vacancies/topBg.jpg);">
+  <div class="container">
+    <div class="vacancies__content">
+      <h1 class="vacancies__title page-title">Работа у нас</h1>
+      <p class="vacancies__text">
+        Услуги поездок с личным водителем акутальны, как никогда раньше. Если у вас есть опыт с обращением людей, владение навыков милосердия и опыт вождения авто на высоко уровне, то добро пожаловать в нашу компанию. Наша компания нуждается в бесконечном потоке профессиональных водителей
+      </p>
+    </div>
+  </div>
+</section>
+  <section class="application indent">
+  <div class="container">
+    <div class="application__inner">
+      <div class="application__content">
+        <h2 class="application__title small-section-title">Станьте профессиональным водителем</h2>
+        <div class="application__description">
+          <p class="application__text">
+            Присоединяйтесь к сообществу водителей мирового класса
+          </p>
+          <p class="application__info">
+            После отправки анкеты, с вами свяжется оператор в ближайшие 3 дня, и мы сможем назначить время на
+            собеседование
+          </p>
+        </div>
+        <form class="application__form" action="#">
+          <ul class="application__list">
+            <li class="application__item">
+              <label class="application__label">
+                <input class="application__field" id="application_name" type="text" placeholder="Ввведите ваше имя" required>
+              </label>
+            </li>
+            <li class="application__item">
+              <label class="application__label">
+                <input class="application__field" id="application_phone" data-tel-input type="tel"
+                  placeholder="Введите номер телефона" required>
+              </label>
+            </li>
+            <li class="application__item">
+              <label class="application__label">
+                <input class="application__field" id="application_experience" type="number"
+                  placeholder="Введите стаж вождения" required>
+              </label>
+            </li>
+            <li class="application__item">
+              <label class="application__label">
+                <textarea class="application__field application__message" id="application_message"
+                  placeholder="Расскажите о себе" required></textarea>
+              </label>
+            </li>
+          </ul>
+          <button class="application__btn" type="submit">Отправить</button>
+        </form>
+      </div>
+      <img class="application__img" src="images/vacancies/driver.jpg" alt="личный водитель" width="600" height="500">
+    </div>
+  </div>
+</section>
+  <section class="bonus indent">
+  <div class="container">
+    <div class="bonus__content">
+      <h2 class="bonus__title small-section-title">Зарабатывайте больше с Silver Cars</h2>
+      <p class="bonus__text">
+        Golden Cars предоставляет услуги бескомпромиссного качества в премиум-сегменте. Выбирайте удобный график работы, а мы гарантируем своевременные еженедельные выплаты.
+      </p>
+    </div>
+  </div>
+  <div class="bonus__info bgBlack" style="background-image: url(images/vacancies/bonusBg.jpg);">
+    <div class="container">
+      <div class="bonus__inner">
+        <h3 class="bonus__inner-title"><span>Бонус</span> для новых водителей</h3>
+        <p class="bonus__description">
+          Получите бонус до 30 000 ₽ в первый месяц работы, выполнив определенное количество поездок
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+  <section class="rate">
+  <div class="container">
+    <h2 class="rate__title small-section-title">Тарифные планы</h2>
+    <p class="rate__text">
+      Узнайте, сколько сможете заработать в каждом классе обслуживания при выполнении среднего количества поездок в
+      неделю:
+    </p>
+    <ul class="rate__list">
+      <li class="rate__item">
+        <img class="rate__img" src="images/vacancies/rateOne.jpg" alt="BMW 7 серии" width="398" height="200">
+        <div class="rate__content">
+          <h3 class="rate__status">Статус <span>First</span></h3>
+          <p class="rate__cars">Авто: Mercedes-benz-S класса, BMW 7 серии</p>
+          <span class="rate__salary">Заработная плата: 70 000 ₽ в неделю</span>
+        </div>
+      </li>
+      <li class="rate__item">
+        <img class="rate__img" src="images/vacancies/rateTwo.jpg" alt="Mercedes-Maybach S" width="398" height="200">
+        <div class="rate__content">
+          <h3 class="rate__status">Статус <span>Luxe</span></h3>
+          <p class="rate__cars">Авто: Mercedes-Maybach S класса</p>
+          <span class="rate__salary">Заработная плата: 100 000₽ в неделю</span>
+        </div>
+      </li>
+      <li class="rate__item">
+        <img class="rate__img" src="images/vacancies/rateThree.jpg" alt="Mercedes-benz-V" width="398" height="200">
+        <div class="rate__content">
+          <h3 class="rate__status">Статус <span>XL</span></h3>
+          <p class="rate__cars">Авто: Mercedes-benz-V класса</p>
+          <span class="rate__salary">Заработная плата: 90 000₽ в неделю </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+</main>
+<footer class="footer">
+  <div class="container">
+    <div class="footer__top indent">
+      <div class="footer__content">
+        <div class="footer__content-info">
+          <h2 class="footer__title section-title">С нами легко связаться</h2>
+          <ul class="footer__feedback">
+            <li class="footer__feedback-item">
+              <h3 class="footer__feedback-title">Наш телефон</h3>
+              <a class="footer__feedback-link" href="tel:+79876954914">+7 (987)-695-49-14</a>
+            </li>
+            <li class="footer__feedback-item">
+              <h3 class="footer__feedback-title">Наша почта</h3>
+              <a class="footer__feedback-link" href="mailto:carcharingMail@gmail.com">carcharingMail@gmail.com</a>
+            </li>
+            <li class="footer__feedback-item">
+              <h3 class="footer__feedback-title">Наш адрес</h3>
+              <a class="footer__feedback-link" href="https://goo.gl/maps/CCaobr8kJZWuSMeP6" target="_blank">Москва, Ленинская Слобода, 19</a>
+            </li>
+          </ul>
+        </div>
+        <form class="footer__form" action="#">
+          <p class="footer__form-description">
+            Свяжитесь с нами по номеру телефона <br> <a href="tel:+79876954914">+7 (987)-695-49-14</a>, или же заполните форму обратной связи и мы перезвоним вам в ближайшее время
+          </p>
+          <ul class="footer__form-list">
+            <li class="footer__form-item">
+              <label class="footer__form-label">
+                <input class="footer__form-field" id="footer_name" type="text" placeholder="Ваше имя" required>
+              </label>
+            </li>
+            <li class="footer__form-item">
+              <label class="footer__form-label">
+                <input class="footer__form-field" id="footer_phone" data-tel-input type="tel" placeholder="Ваш телефон" required>
+              </label>
+            </li>
+          </ul>
+          <button class="footer__btn" type="submit">Отправить</button>
+          <p class="footer__form-copy">Нажимая на кнопку “Отправить”, вы соглашаетесь на обработку ваших персональных
+            данных</p>
+        </form>
+      </div>
+      <div class="footer__map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2247.881328662687!2d37.65060651608742!3d55.70843450288024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54b346b1b5e5b%3A0xb54b177f9d2fa432!2z0YPQuy4g0JvQtdC90LjQvdGB0LrQsNGPINCh0LvQvtCx0L7QtNCwLCAxOSwg0JzQvtGB0LrQstCwLCAxMTUyODA!5e0!3m2!1sru!2sru!4v1651223695678!5m2!1sru!2sru" width="100%" height="360" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer__bottom">
+    <div class="container">
+      <div class="footer__bottom-content">
+        <p class="footer__copy">Все права защищены. Компания Silver Cars</p>
+        <ul class="footer__bottom-list">
+          <li class="footer__bottom-item">
+            <a class="footer__bottom-link" href="blog.html">Блог</a>
+          </li>
+          <li class="footer__bottom-item">
+            <a class="footer__bottom-link" href="about.html">О нас</a>
+          </li>
+          <li class="footer__bottom-item">
+            <a class="footer__bottom-link" href="conditions.html">Условия и правила</a>
+          </li>
+          <li class="footer__bottom-item">
+            <a class="footer__bottom-link" href="vacancies.html">Вакансии</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="modal">
+    <button class="modal__btn" type="button">
+      <span class="modal__line"></span>
+      <span class="modal__line"></span>
+    </button>
+    <h3 class="modal__title">Успешная отправка</h3>
+    <p class="modal__text">Ваша заявка была отправлена</p>
+  </div>
+</footer>
+
+<script src="js/main.min.js"></script>
+<script @src></script>
+</body>
+
+</html>
